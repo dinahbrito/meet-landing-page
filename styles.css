@@ -23,7 +23,41 @@
 
 body {
     color: var(--secondary-text);
-    font-family: 'Red Hat', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
     font-weight: 500;
+    height: 100vh;
+    text-align: center;
+}
+
+img,
+picture {
+    display: block;
+    max-width: 100%;
+}
+
+h1 {
+    color: var(--primary-text);
+    font-size: 4rem;
+    font-weight: 900;
+}
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 61px;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-text {
+    font-size: 18px;
+    max-width: 540px;
+    margin: 3rem;
+}
+
+.middle {
+    display: none;
 }
