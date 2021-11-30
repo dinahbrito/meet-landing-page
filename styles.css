@@ -1,0 +1,29 @@
+/* Colors */
+:root {
+    --primary: #4D96A9;
+    --primary-active: #8FE3F9;
+    --secondary: #855FB1;
+    --secondary-active: #D9B8FF;
+    --primary-text: #28283D;
+    --secondary-text: #87879D;
+    --background: #FAFAFA;
+}
+
+/* Reset */
+*,
+* ::before,
+* ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+body {
+    color: var(--secondary-text);
+    font-family: 'Red Hat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
