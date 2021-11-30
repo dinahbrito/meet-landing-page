@@ -57,7 +57,54 @@ header {
     max-width: 540px;
     margin: 3rem;
 }
-
+/* Hide mobile background image */
 .middle {
     display: none;
+}
+
+/* Button styling */
+.cta-buttons {
+    margin-top: 2rem;
+}
+
+button {
+    border: none;
+    border-radius: 29px;
+    color: var(--background);
+    font-weight: 900;
+}
+.download {
+    background-color: var(--primary);
+    padding: 1rem 2.5rem;
+    margin-right: 1rem; 
+}
+.download span {
+    color: var(--primary-active);
+}
+.what {
+    background-color: var(--secondary);
+    padding: 1rem 1.81rem;
+}
+
+.circle-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.circle {
+    border: 1px solid var(--secondary-text);
+    border-radius: 50%;
+    width: 56px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.875rem;
+    margin: 0 10rem;
+    margin-bottom: 5rem;
+}
+
+.gallery img {
+    border-radius: 8px;
 }
