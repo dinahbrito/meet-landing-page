@@ -106,7 +106,7 @@ button {
     margin-bottom: 4rem;
 }
 .circle-wrapper {
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 .circle {
@@ -116,6 +116,12 @@ button {
     height: 56px;
     padding: 15px;
     width: 56px;
+}
+.vertical-line {
+    border-left: 1px solid rgba(135, 135, 157, 0.25);
+    height: 84px;
+    position: relative;
+    left: 50%;  
 }
 
 /* Gallery Section */
