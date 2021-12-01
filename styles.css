@@ -131,13 +131,16 @@ button {
     background-color: #B18BDD;
 }
 
+/* Vertical line with number in Circle */
 .circle1 {
     margin-bottom: 4rem;
 }
+
 .circle-wrapper {
     display: grid;
     justify-content: center;
 }
+
 .circle {
     border: 1px solid rgba(135, 135, 157, 0.25);
     border-radius: 50%;
@@ -146,6 +149,7 @@ button {
     padding: 15px;
     width: 56px;
 }
+
 .vertical-line {
     border-left: 1px solid rgba(135, 135, 157, 0.25);
     height: 84px;
@@ -164,6 +168,21 @@ button {
 
 .gallery img {
     border-radius: 8px;
+}
+
+/* Description section */
+
+.description h2, .description p {
+    margin-right: auto;
+    margin-left: auto;
+}
+.description h2{
+    max-width: 445px;
+}
+.description p {
+    max-width: 540px;
+    margin-top: 2rem;
+    margin-bottom: 4.5rem;
 }
 
 @media only screen and (min-width: 1440px) {
