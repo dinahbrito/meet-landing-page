@@ -57,22 +57,41 @@ body {
     text-align: center;
 }
 
+
 header {
     display: flex;
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 61px;
 }
-
+ 
 .hero {
     display: flex;
-}
+    justify-content: center;
+}  
 
 .hero-text {
     font-size: 18px;
     max-width: 540px;
     margin: 3rem;
 }
+
+.left-hero {
+    background-image: url(./images/desktop/image-hero-left.png);
+    background-repeat: no-repeat;
+    height: 303px;
+    width: 394px;
+    background-position: left -35px top 0;
+}
+
+.right-hero {
+    background-image: url(./images/desktop/image-hero-right.png);
+    background-repeat: no-repeat;
+    height: 303px;
+    width: 394px;
+    background-position: right -35px top 0;
+}
+
 /* Hide mobile background image */
 .middle {
     display: none;
@@ -94,12 +113,22 @@ button {
     padding: 1rem 2.5rem;
     margin-right: 1rem; 
 }
+
 .download span {
     color: var(--primary-active);
 }
+
+.download:hover {
+    background-color: #71C0d4;
+}
+
 .what {
     background-color: var(--secondary);
     padding: 1rem 1.81rem;
+}
+
+.what:hover {
+    background-color: #B18BDD;
 }
 
 .circle1 {
@@ -135,4 +164,13 @@ button {
 
 .gallery img {
     border-radius: 8px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .left-hero {
+        background-position: left 0px top 0px;
+    }
+    .right-hero {
+        background-position: right 0px top 0px;
+    }
 }
