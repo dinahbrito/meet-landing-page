@@ -21,15 +21,6 @@
     font-smoothing: antialiased;
 }
 
-body {
-    color: var(--secondary-text);
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    height: 100vh;
-    text-align: center;
-}
-
 img,
 picture {
     display: block;
@@ -55,6 +46,15 @@ h2 {
     letter-spacing: 4px;
     margin-bottom: 1rem;
     text-transform: uppercase;
+}
+
+body {
+    color: var(--secondary-text);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 100vh;
+    text-align: center;
 }
 
 header {
@@ -102,15 +102,19 @@ button {
     padding: 1rem 1.81rem;
 }
 
+.circle1 {
+    margin-bottom: 4rem;
+}
 .circle-wrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 4rem;
 }
-
 .circle {
-    border: 1px solid var(--secondary-text);
+    border: 1px solid rgba(135, 135, 157, 0.25);
     border-radius: 50%;
+    font-weight: 900;
+    height: 56px;
+    padding: 15px;
     width: 56px;
 }
 
