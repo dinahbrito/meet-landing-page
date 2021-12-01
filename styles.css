@@ -185,7 +185,21 @@ button {
     margin-bottom: 4.5rem;
 }
 
-@media only screen and (min-width: 1440px) {
+footer {
+    align-items: center;
+    background: linear-gradient(0deg, rgba(77, 150, 168, .70), rgba(77,150,168,.70)), url(./images/desktop/image-footer.jpg);
+    display: flex;
+    height: 308px;
+    text-align: left;
+    justify-content: center; 
+}
+
+.col1 h2, .col2 {
+    color: var(--background);
+    vertical-align: text-top;
+}
+
+@media only screen and (min-width: 1441px) {
     .left-hero {
         background-position: left 0px top 0px;
     }
