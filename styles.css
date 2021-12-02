@@ -199,6 +199,12 @@ footer {
     vertical-align: text-top;
 }
 
+.col2 {
+    max-width: 350px;
+    margin-left: 125px;
+    margin-right: 92px;
+}
+
 @media only screen and (min-width: 1441px) {
     .left-hero {
         background-position: left 0px top 0px;
