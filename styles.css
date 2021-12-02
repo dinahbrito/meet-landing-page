@@ -228,6 +228,40 @@ footer {
     color: var(--secondary-active);
 }
 
+/* For Tablet Screens */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    main {
+        margin: 0;
+    }
+    .left-hero, .right-hero {
+        display: none;
+    }
+    .middle {
+        display: flex;
+        justify-content: center;
+        width: 820px;
+        overflow: hidden;
+    }
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .hero-text {
+        max-width: 457px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    h1 {
+        font-size: 48px;
+        line-height: 48px;
+        margin-top: 72px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+/* For Screens 1441px and above */
 @media only screen and (min-width: 1441px) {
     .left-hero {
         background-position: left 0px top 0px;
